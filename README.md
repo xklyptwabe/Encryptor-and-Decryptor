@@ -37,11 +37,11 @@ int main() {
     
     // Encrypt in one click!
     ++(*myCipher); 
-    std::cout << "Зашифровано: " << *myCipher << "\n";
+    std::cout << "Encrypted: " << *myCipher << "\n";
     
     // Decrypt back
     --(*myCipher); 
-    std::cout << "Розшифровано: " << *myCipher << "\n";
+    std::cout << "Deciphered: " << *myCipher << "\n";
 
     // Don't forget to free the memory
     delete myCipher; 
